@@ -1,14 +1,16 @@
 import { Dimensions, StyleSheet } from "react-native";
 import { Colors } from "react-native-paper";
-import Constants from "expo-constants";
 
 export const backgroundcolor = Colors.teal500;
 export const headertextcolor = "white";
-export const darkbackgroundcolor = Colors.blueGrey900;
 
-const statusbarheight = Constants.statusBarHeight + 5;
+
 
 const styles = StyleSheet.create({
+    map: {
+        height: Dimensions.get('window').height,
+        width: Dimensions.get('window').width
+    },
 	tag: {
 		fontFamily: "monospace",
 		fontWeight: "bold",

@@ -1,9 +1,16 @@
 import React from 'react'
-import {Text} from 'react-native'
+import {Text, View} from 'react-native'
+import MapView, {Marker} from 'react-native-maps'
+import styles from './styles'
+
 
 const MapScreen = (props) => {
     return (
-        <Text>{props.route.params.username}</Text>
+        <View>
+            <MapView style={styles.map}>
+
+            </MapView>
+        </View>
     )
 }
 
