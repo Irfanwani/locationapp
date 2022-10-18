@@ -11,7 +11,7 @@ const NativeStack = createNativeStackNavigator()
 const Main = () => {
     return (
         <NavigationContainer>
-            <NativeStack.Navigator screenOptions={{statusBarHidden:true}}>
+            <NativeStack.Navigator screenOptions={{headerShown: false, statusBarHidden: true}}>
                 <NativeStack.Screen name="Login" component={Login} />
                 <NativeStack.Screen name='Map' component={MapScreen} />
                 <NativeStack.Screen name="Details" component={Details} />

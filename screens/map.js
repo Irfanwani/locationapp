@@ -1,9 +1,9 @@
 import React from 'react'
 import {Text} from 'react-native'
 
-const MapScreen = () => {
+const MapScreen = (props) => {
     return (
-        <Text>Map screen</Text>
+        <Text>{props.route.params.username}</Text>
     )
 }
 
