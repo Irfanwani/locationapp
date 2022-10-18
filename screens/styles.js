@@ -7,6 +7,21 @@ export const headertextcolor = "white";
 
 
 const styles = StyleSheet.create({
+    details: {
+        marginVertical: 30, 
+        marginHorizontal: 10
+    },
+    fab: {
+        position: 'absolute',
+        bottom: 50,
+        right: 20,
+        backgroundColor: 'teal'
+    },
+    indicator: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
     map: {
         height: Dimensions.get('window').height,
         width: Dimensions.get('window').width
