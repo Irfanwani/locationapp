@@ -1,0 +1,1 @@
+This is a react native app where a user can check their location with some other details
