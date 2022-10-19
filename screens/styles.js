@@ -7,6 +7,9 @@ export const headertextcolor = "white";
 
 
 const styles = StyleSheet.create({
+    text: {
+        color: 'teal'
+    },
     details: {
         marginVertical: 30, 
         marginHorizontal: 10

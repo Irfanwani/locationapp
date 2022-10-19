@@ -38,7 +38,7 @@ const Details = (props) => {
             {Object.entries(address).map(key => (
                 <View style={styles.details} key={key}>
                     <Headline key={key}>{key[0]}:</Headline> 
-                    <Text>{key[1]}</Text>
+                    <Text style={styles.text}>{key[1]}</Text>
                 </View>
             ))}
 
@@ -47,8 +47,3 @@ const Details = (props) => {
 }
 
 export default Details;
-
-
-
-
-[{"city": "Mountain View", "country": "United States", "district": null, "isoCountryCode": "US", "name": "1600", "postalCode": "94043", "region": "California", "street": "Amphitheatre Parkway", "streetNumber": "1600", "subregion": "Santa Clara County", "timezone": null}]
